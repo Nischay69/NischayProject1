@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Main container (whole display) */
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+/* LEFT CONTAINER CSS */
+.left {
+  padding: 8rem;
+  height: 100vh;
+  width: 65%;
+  background-color: #f6f6f6;
+}
+.leftcontainer1 {
+  width: 70vw;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 14rem;
+  height: 14rem;
+}
+.Name {
+  font-size: 5rem;
+  margin: 0 auto;
+  color: #212b36;
+}
+.leftcontainer2 {
+  display: flex;
+  justify-content: center;
+}
+.photo {
+  width: 60%;
+}
+
+/* RIGHT CONTINER CSS */
+.right {
+  height: 100vh;
+  width: 35%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+  padding: 8rem;
+  gap: 3.1rem;
+}
+.signin {
+  margin-top: 5rem;
+  font-size: 4.3rem;
+}
+.create_acc,
+.create_acc_link {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.create_acc_link {
+  color: red;
+  text-decoration: none;
+}
+.create_acc_link:hover {
+  text-decoration: underline;
+}
+.info {
+  width: 8rem;
+}
+.sign_in_info {
+  width: 20vw;
+  height: 6vh;
+  border-radius: 5px;
+  background-color: #fc5185;
+  color: #fcfcfc;
+  gap: 20px;
+  padding: 25px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+.Login_user {
+  background-color: #212b36;
+  border-radius: 5px;
+}
+.Login_text {
+  font-size: 4rem;
+  color: white;
+  text-decoration: none;
+}
+.Login_user:hover {
+  background-color: #273341;
+}
+
+.info_text {
+  color: white;
+  font-size: 2.8rem;
+  margin: auto;
+}
+.form_input {
+  width: 19.5vw;
+  padding: 2rem;
+  font-size: 3rem;
+}
+.forgot_password {
+  font-size: 3rem;
+  text-decoration: none;
+  color: blue;
+  text-align: right;
+}
+.forgot_password:hover {
+  text-decoration: underline;
+}
+.Login_user {
+  text-align: center;
+  width: 21vw;
+  background-color: #212b36;
+  color: white;
+  padding: 2rem;
+  font-size: 3rem;
+  border-radius: 25px;
+}
+.or {
+  text-align: center;
+  font-size: 4rem;
+  color: #212b36;
+}
+.google_login {
+  width: 19.5vw;
+  padding: 1rem;
+  font-size: 3rem;
+  background-color: white;
+  color: #212b36;
+  align-self: center;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.google {
+  width: 8rem;
+}
+.twitter_login {
+  width: 19.5vw;
+  padding: 1rem;
+  font-size: 3rem;
+  background-color: white;
+  color: #212b36;
+  align-self: center;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twitter {
+  width: 6rem;
+}
+.bold {
+  font-weight: 600;
+}
